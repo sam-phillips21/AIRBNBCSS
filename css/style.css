@@ -1,0 +1,67 @@
+/* css variables */
+:root {
+  --dark-white: #E9EBE7;
+  --dark-gray: #45484D;
+  --bright-white: #FFFFFF;
+}
+
+body {
+  margin: 0;
+  background-color: var(--dark-white);
+  color: var(--dark-gray);
+  font-family: Helvetica, sans-serif;
+}
+
+.center {
+  display: flex;
+  justify-content: center; 
+  /* if you are not using flexbox, you can center like this */
+  /* text-align: center;
+  margin: 0 auto; */
+  /*
+}
+
+.big-button {
+  padding: 1rem 3rem;
+  background-color: var(--bright-white);
+  border: 1px solid var(--dark-gray);
+  color: var(--dark-gray);
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* https://www.w3schools.com/howto/howto_css_image_text.asp */
+.image-container {
+  /* if you are not using flexbox, you need to change the display here */
+  /* display: inline-block; */
+  position: relative;
+  padding: 3rem;
+}
+
+.image-container > h3 {
+  font-size: 2rem;
+  color: var(--bright-white);
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.image-container > img {
+  width: 30rem;
+  height: 30rem;
+  display: inline-block;
+  position: relative;
+}
+
+.wireframe-black {
+  border: .3rem solid black;
+}
+
+.wireframe-green {
+  border: .3rem solid chartreuse;
+}
+
+.wireframe-pink {
+  border: .3rem solid hotpink;
+}
